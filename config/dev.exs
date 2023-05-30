@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :oauth_tutorial, OauthTutorial.Repo,
   username: "postgres",
-  password: "zambia",
+  password: "postgres",
   hostname: "localhost",
   database: "oauth_tutorial_dev",
   stacktrace: true,
